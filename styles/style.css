@@ -158,3 +158,108 @@ color: #000000;
   background: #82B3D3;
   border-radius: 0px 10px 10px 0px;
 }
+
+.filter {
+  background-image: url("../images/background/view-mountain-sedona.png");
+  color: #ffffff;
+  background-color: #000000;
+  background-size: 100% 393px;
+  background-repeat: no-repeat;
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.filter-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-catalog-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.sorting-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #ffffff;
+  color: #000000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .product-card-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #756157;
+  }
+
+  .product-card-button-blu {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #82B3D3;
+  }
+
+  .product-card-button-green {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #7DB54F;
+  }
+
+  .product-card-rating {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: #F2F2F2;
+  }
+
+  .pagination-current {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #F2F2F2;
+  }
+
+  .pagination-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #82B3D3;
+  }
+
+  .pagination-user-page {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+
+  }
