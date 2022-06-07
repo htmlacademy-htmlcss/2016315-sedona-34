@@ -1,0 +1,280 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.navigation-link-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+.welcome-wrapper {
+  background-image: url("../images/background/index-bg.jpg");
+  background-size: 100% 485px;
+  background-repeat: no-repeat;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.welcome-text {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages,
+.advantages-user {
+  text-align: center;
+}
+
+.advantages-item-blue {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.advantages-item-grey {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-dark-grey {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.interested {
+  text-align: center;
+}
+
+.interested-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.interested-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.interested-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+}
+
+.footer-email {
+  background-color: #000000;
+  background-image: url("../images/background/view-sedona.png");
+  color: #ffffff;
+  background-size: 100% 411px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.footer-mail {
+  text-align: center;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.button-email {
+  background-color: #82b3d3;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.email {
+  background: #f2f2f2;
+  border: none;
+}
+
+.filter {
+  background-color: #000000;
+  background-image: url("../images/background/view-mountain-sedona.png");
+  color: #ffffff;
+  background-size: 100% 403px;
+  background-repeat: no-repeat;
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.filter-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-catalog-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.price-number {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.button-apply {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82b3d3;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.sorting-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+.product-card-button-blu {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.product-card-button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
+.product-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  background: #f2f2f2;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82b3d3;
+}
+
+.pagination-current {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  background: #f2f2f2;
+}
+
+.pagination-user-page {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}

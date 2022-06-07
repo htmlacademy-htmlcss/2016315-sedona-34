@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Каталог гостиниц</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <a class="navogation-link" href="#">
+          <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
@@ -40,7 +41,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Хочу сюда!</a>
+          <a class="navigation-link navigation-link-header" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -48,7 +49,7 @@
 
   <main class="main-inner">
     <section class="filter">
-      <h1 class="filter-title">Гостиницы седоны</h1>
+      <h1 class="filter-title">Гостиницы Cедоны</h1>
       <ul class="filter-list">
         <li class="filter-item">
           <a class="filter-link" href="index.html">
@@ -115,7 +116,7 @@
             <input class="price-range" type="range">
           </label>
         </fieldset>
-        <button class="button" type="submit">Применить</button>
+        <button class="button-apply" type="submit">Применить</button>
         <button class="button-reset" type="reset">Сбросить</button>
       </form>
     </section>
@@ -127,7 +128,6 @@
         <option value="cheap">Сначала дешевые</option>
         <option value="expensive">Сначала дорогие</option>
       </select>
-
 
       <div class="sorting-button">
         <a class="button button-ligh" href="#">
@@ -247,7 +247,6 @@
       </li>
     </ul>
 
-
     <section class="pagination">
       <h2 class="visually-hidden">Показ страниц</h2>
       <ul class="pagination-list">
@@ -269,11 +268,6 @@
         <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>
         </li>
-        <li class="pagination-item">
-          <a class="pagination-link pagination-next" href="#">
-            <span class="visually-hidden">Следующая страница</span>
-          </a>
-        </li>
       </ul>
       <div class="pagination-user">
         <h3 class="pagination-user-page">Гостиниц на странице:</h3>
@@ -285,7 +279,7 @@
   </main>
 
   <footer class="page-footer">
-    <section class="footer-email">
+    <section class="footer-mail">
       <h2 class="footer-title">Подпишитесь на рассылку</h2>
       <p class="footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="#" method="post">
@@ -297,6 +291,7 @@
     </section>
 
     <section class="footer-social">
+      <h2 class="visually-hidden">Как можно с нами связаться</h2>
       <ul class="footer-item">
         <li class="footer-list">
           <a class="footer-link" href="https://vk.com/htmlacademy">
