@@ -20,7 +20,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  background: #756157;
+  background-color: #756157;
   text-transform: uppercase;
 }
 
@@ -73,16 +73,16 @@ a {
 }
 
 .advantages-item-blue {
-  background: #82b3d3;
+  background-color: #82b3d3;
   color: #ffffff;
 }
 
 .advantages-item-grey {
-  background: rgba(131, 179, 211, 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-dark-grey {
-  background: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-title {
@@ -113,11 +113,12 @@ a {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
-  background: #756157;
+  background-color: #756157;
+  color: #ffffff;
 }
 
 .footer-email {
-  background: #000000;
+  background-color: #000000;
   background-image: url("../images/background/view-sedona.png");
   color: #ffffff;
   background-size: 100% 411px;
@@ -147,17 +148,19 @@ a {
 }
 
 .button-email {
-  background: #82b3d3;
+  background-color: #82b3d3;
   color: #ffffff;
   text-transform: uppercase;
+  border: none;
 }
 
 .email {
   background: #f2f2f2;
+  border: none;
 }
 
 .filter {
-  background: #000000;
+  background-color: #000000;
   background-image: url("../images/background/view-mountain-sedona.png");
   color: #ffffff;
   background-size: 100% 403px;
@@ -182,7 +185,7 @@ a {
 }
 
 .price-number {
-  background: transparent;
+  background-color: transparent;
   color: #ffffff;
 }
 
@@ -190,16 +193,17 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  background: #82b3d3;
+  background-color: #82b3d3;
   color: #ffffff;
   text-transform: uppercase;
+  border: none;
 }
 
 .button-reset {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  background: #000000;
+  background-color: #000000;
 }
 
 .sorting-title {
@@ -221,7 +225,7 @@ a {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #756157;
+  background-color: #756157;
 }
 
 .product-card-button-blu {
@@ -230,7 +234,7 @@ a {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #82b3d3;
+  background-color: #82b3d3;
 }
 
 .product-card-button-green {
@@ -239,7 +243,7 @@ a {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #7db54f;
+  background-color: #7db54f;
 }
 
 .product-card-rating {
