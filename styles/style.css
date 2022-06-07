@@ -20,7 +20,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  background-color: #756157;
+  background: #756157;
   text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ a {
 }
 
 .welcome-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -67,28 +67,29 @@ a {
   color: #333333;
 }
 
-.advantages, .advantages-user {
+.advantages,
+.advantages-user {
   text-align: center;
 }
 
 .advantages-item-blue {
-  background-color:#82B3D3;
+  background: #82b3d3;
   color: #ffffff;
-
 }
 
 .advantages-item-grey {
-  background-color: rgba(131, 179, 211, 0.12);
+  background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-dark-grey {
-  background-color: rgba(131, 179, 211, 0.2);}
+  background: rgba(131, 179, 211, 0.2);
+}
 
 .advantages-title {
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
 }
 
 .interested {
@@ -112,13 +113,13 @@ text-transform: uppercase;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
-  background-color: #756157;
-  }
+  background: #756157;
+}
 
 .footer-email {
-  background-image: url("../images/background/view-sedona.png") ;
+  background: #000000;
+  background-image: url("../images/background/view-sedona.png");
   color: #ffffff;
-  background-color: #000000;
   background-size: 100% 411px;
   background-repeat: no-repeat;
   text-align: center;
@@ -146,16 +147,20 @@ text-transform: uppercase;
 }
 
 .button-email {
-  background: #82B3D3;
+  background: #82b3d3;
   color: #ffffff;
   text-transform: uppercase;
 }
 
+.email {
+  background: #f2f2f2;
+}
+
 .filter {
+  background: #000000;
   background-image: url("../images/background/view-mountain-sedona.png");
   color: #ffffff;
-  background-color: #000000;
-  background-size: 100% 393px;
+  background-size: 100% 403px;
   background-repeat: no-repeat;
 }
 
@@ -176,11 +181,16 @@ text-transform: uppercase;
   line-height: 26px;
 }
 
+.price-number {
+  background: transparent;
+  color: #ffffff;
+}
+
 .button-apply {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  background: #82B3D3;
+  background: #82b3d3;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -188,7 +198,7 @@ text-transform: uppercase;
 .button-reset {
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #000000;
 }
 
@@ -203,65 +213,64 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  }
+}
 
-  .product-card-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #756157;
-  }
+.product-card-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+}
 
-  .product-card-button-blu {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #82B3D3;
-  }
+.product-card-button-blu {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82b3d3;
+}
 
-  .product-card-button-green {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #7DB54F;
-  }
+.product-card-button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #7db54f;
+}
 
-  .product-card-rating {
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #333333;
-    background-color: #F2F2F2;
-  }
+.product-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  background: #f2f2f2;
+}
 
-  .pagination-link {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #82B3D3;
-  }
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82b3d3;
+}
 
-  .pagination-current {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #000000;
-    background: #F2F2F2;
-  }
+.pagination-current {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  background: #f2f2f2;
+}
 
-  .pagination-user-page {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #333333;
-
-  }
+.pagination-user-page {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
