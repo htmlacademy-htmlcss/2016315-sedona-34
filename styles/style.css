@@ -26,9 +26,6 @@ html {
 }
 
 body {
-  /*margin: 0;
-  display: flex;
-  flex-direction: column;*/
   min-height: 100%;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
@@ -46,6 +43,10 @@ a {
   flex-grow: 1;
 }
 
+.navigation-logo {
+  margin-left: 13px;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -54,6 +55,9 @@ a {
 
 .navigation-list {
   display: flex;
+  gap: 34px;
+  align-items: center;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -119,6 +123,7 @@ a {
 
 .advantages-list {
   display: flex;
+  list-style: none;
 }
 
 .advantages-item-grey {
@@ -176,9 +181,16 @@ a {
   background-repeat: no-repeat;
 }
 
-.footer-item {
+.footer-social {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  display: flex;
+  gap: 27px;
+  list-style: none;
 }
 
 .footer-title {
@@ -220,6 +232,24 @@ a {
 
 .filter-list {
   display: flex;
+  list-style: none;
+}
+
+.filter-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.filter-catalog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+
+.button-two {
+  display: flex;
+  flex-direction: column;
 }
 
 .filter-title {
@@ -233,8 +263,8 @@ a {
   line-height: 21px;
 }
 
-.filter-catalog-item {
-  display: flex;
+.filter-catalog-list {
+  list-style: none;
 }
 
 .filter-catalog-title {
@@ -270,18 +300,28 @@ a {
   justify-content: space-between;
 }
 
+.product-card {
+  text-align: left;
+  width: 320px;
+}
+
 .product-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .product-list-star {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .rating-star {
   display: flex;
+  align-items: center;
 }
 
 .sorting-title {
@@ -339,7 +379,7 @@ a {
 
 .pagination-list {
   display: flex;
-
+  list-style: none;
 }
 
 .pagination-link {
@@ -349,6 +389,9 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   background: #82b3d3;
+  padding: 12px 24px;
+  margin: 0 4px;
+  border-radius: 4px;
 }
 
 .pagination-current {
@@ -358,6 +401,11 @@ a {
   text-transform: uppercase;
   color: #000000;
   background: #f2f2f2;
+}
+
+.pagination-user {
+  display: flex;
+  justify-content: center;
 }
 
 .pagination-user-page {
