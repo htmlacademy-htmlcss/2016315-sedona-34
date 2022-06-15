@@ -18,13 +18,6 @@ html {
   height: 100%;
 }
 
-.page-container {
-  width: 1200px;
-  margin: auto;
-  background-color: #ffffff;
-  text-align: center;
-}
-
 body {
   min-height: 100%;
   font-family: "PT Sans", Arial, sans-serif;
@@ -32,11 +25,40 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  margin: 0;
+  background-color: #F2F2F2;
+  padding: 0;
 }
 
 a {
   color: #000000;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.page-text-container {
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -50,16 +72,14 @@ a {
 .navigation {
   display: flex;
   justify-content: space-between;
-  width: 1060px;
 }
 
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
   gap: 34px;
   align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .navigation-link {
@@ -91,7 +111,7 @@ a {
 
 .welcome-title {
   width: 620px;
-  margin: 0 auto 31px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -99,20 +119,28 @@ a {
 }
 
 .welcome-text {
-  width: 654px;
-  margin: 0 auto 90px;
+  width: 655px;
+  margin: 0 auto;
+  margin-top: 31px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 }
 
-.advantages-flex {
-  display: flex;
-  flex-direction: column;
+.advantages {
+  margin-top: 90px;
 }
 
-.advantages-user {
-  margin-bottom: 91px;
+.advantages-one {
+  display: flex;
+  flex-direction: column;
+  padding: 92px 85px;
+  gap: 30px;
+}
+
+.advantages-item {
+  padding: 103px 85px;
+  gap: 30px;
 }
 
 .advantages-item-blue {
@@ -147,7 +175,7 @@ a {
 
 .interested {
   width: 592px;
-  margin: auto;
+  padding-top: 91px;
 }
 
 .interested-title {
@@ -155,13 +183,13 @@ a {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin-bottom: 29px;
 }
 
 .interested-text {
   font-size: 22px;
   line-height: 26px;
-  margin-bottom: 68px;
+  padding-top: 29px;
+  padding-bottom: 56px;
 }
 
 .interested-link {
@@ -171,6 +199,12 @@ a {
   text-transform: uppercase;
   background-color: #756157;
   color: #ffffff;
+  padding: 12px 15px;
+  border-radius: 4px;
+}
+
+.page-footer {
+  padding-top: 93px;
 }
 
 .footer-email {
@@ -179,12 +213,15 @@ a {
   color: #ffffff;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding-bottom: 94px;
 }
 
 .footer-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 45px;
+  padding-bottom: 35px;
 }
 
 .footer-item {
@@ -198,11 +235,14 @@ a {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  padding-top: 94px;
 }
 
 .footer-text {
   font-size: 22px;
   line-height: 26px;
+  padding-top: 29px;
+  padding-bottom: 46px;
 }
 
 .footer-phone {
@@ -210,16 +250,22 @@ a {
   line-height: 40px;
 }
 
+.email {
+  background: #f2f2f2;
+  border: none;
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0px 0px 10px;
+}
+
 .button-email {
   background-color: #82b3d3;
   color: #ffffff;
   text-transform: uppercase;
   border: none;
-}
-
-.email {
-  background: #f2f2f2;
-  border: none;
+  padding: 12px 15px;
+  border-radius: 0px 10px 10px 0px;
+  height: 60px;
 }
 
 .filter {
@@ -228,6 +274,7 @@ a {
   color: #ffffff;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding: 35px 70px;
 }
 
 .filter-list {
@@ -242,9 +289,10 @@ a {
 
 .filter-catalog {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: left;
+  padding-top: 40px;
 }
 
 .button-two {
@@ -256,6 +304,7 @@ a {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  text-align: start;
 }
 
 .filter-link {
@@ -286,30 +335,34 @@ a {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  padding: 14px 15px;
+  border-radius: 4px;
 }
 
 .button-reset {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  background-color: #000000;
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
 }
 
-.sorting {
+.sorting-search {
   display: flex;
   justify-content: space-between;
+  padding: 60px 0;
 }
 
 .product-card {
   text-align: left;
-  width: 320px;
+  padding: 20px;
 }
 
 .product-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
+  gap: 20px;
 }
 
 .product-list-star {
@@ -375,11 +428,11 @@ a {
 .pagination {
   display: flex;
   justify-content: space-between;
+  margin-top: 96px;
 }
 
 .pagination-list {
   display: flex;
-  list-style: none;
 }
 
 .pagination-link {

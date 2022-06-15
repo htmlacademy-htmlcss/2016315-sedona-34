@@ -12,7 +12,7 @@
 
 <body>
   <header class="page-container">
-    <nav class="navigation">
+    <nav class="navigation page-text-container">
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">
@@ -49,7 +49,7 @@
   </header>
 
   <main class="main-container main-inner page-container">
-    <section class="filter">
+    <section class="filter ">
       <h1 class="filter-title">Гостиницы Cедоны</h1>
       <ul class="filter-list">
         <li class="filter-item">
@@ -63,7 +63,7 @@
       </ul>
 
       <form class="filter-catalog" action="#" method="get">
-        <fieldset class="filter-catalog-group">
+        <fieldset class="filter-catalog-group ">
           <legend class="filter-catalog-title">Инфраструктура:</legend>
           <ul class="filter-catalog-list">
             <li class="filter-catalog-item">
@@ -126,28 +126,30 @@
       </form>
     </section>
 
-    <section class="sorting">
-      <h2 class="sorting-title">Найдено гостиниц:38</h2>
-      <select class="select-control" aria-label="Сортировка">
-        <option value="popular">Сначала популярные</option>
-        <option value="cheap">Сначала дешевые</option>
-        <option value="expensive">Сначала дорогие</option>
-      </select>
+    <div class="sorting page-text-container">
+      <section class="sorting-search">
+        <h2 class="sorting-title">Найдено гостиниц:38</h2>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="popular">Сначала популярные</option>
+          <option value="cheap">Сначала дешевые</option>
+          <option value="expensive">Сначала дорогие</option>
+        </select>
 
-      <div class="sorting-button">
-        <a class="button button-ligh" href="#">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden"></span>Показать одну
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden"></span>Показать список
-        </a>
-      </div>
-    </section>
+        <div class="sorting-button">
+          <a class="button button-ligh" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden"></span>Показать одну
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden"></span>Показать список
+          </a>
+        </div>
+      </section>
+    </div>
 
-    <ul class="product-list">
+    <ul class="product-list page-text-container">
       <li class="product-item">
         <article class="product-card">
           <a href="#" class="product-card-link">
@@ -178,7 +180,7 @@
         </article>
       </li>
 
-      <li class="product-list">
+      <li class="product-item">
         <article class="product-card">
           <a href="#" class="product-card-link">
             <img class="product-card-image" src="images/gallery/villas-poco-diablo.jpg" width="300" height="211"
@@ -208,7 +210,7 @@
         </article>
       </li>
 
-      <li class="product-list">
+      <li class="product-item">
         <article class="product-card">
           <a href="#" class="product-card-link">
             <img class="product-card-image" src="images/gallery/desert-quail-inn.jpg" width="300" height="211"
@@ -235,7 +237,7 @@
         </article>
       </li>
 
-      <li class="product-list">
+      <li class="product-item">
         <article class="product-card">
           <a href="#" class="product-card-link">
             <img class="product-card-image" src="images/gallery/greentree-inn.jpg" width="300" height="211"
@@ -260,8 +262,7 @@
       </li>
     </ul>
 
-    <section class="pagination">
-      <h2 class="visually-hidden">Показ страниц</h2>
+    <div class="pagination page-text-container">
       <ul class="pagination-list">
         <li class="pagination-item">
           <a class="pagination-link pagination-current">1</a>
@@ -288,7 +289,7 @@
           <option value="four">4</option>
         </select>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="page-footer page-container">
@@ -303,7 +304,7 @@
       </form>
     </section>
 
-    <section class="footer-social">
+    <section class="footer-social page-text-container">
       <h2 class="visually-hidden">Как можно с нами связаться</h2>
       <ul class="footer-item">
         <li class="footer-list">
