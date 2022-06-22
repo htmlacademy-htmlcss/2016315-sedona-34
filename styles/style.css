@@ -46,7 +46,18 @@ ol,
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .page-container {
@@ -83,9 +94,17 @@ ul {
 }
 
 .navigation-link {
+  display: block;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+  padding: 20px 0 19px;
+}
+
+.navigation-item-user {
+  min-width: 21px;
+  min-height: 33px;
+
 }
 
 .navigation-link-header {
@@ -95,6 +114,8 @@ ul {
   color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
+  padding: 9px 15px 8px;
+  border-radius: 4px;
 }
 
 .welcome-wrapper {
@@ -102,6 +123,7 @@ ul {
   background-size: 100% 485px;
   background-repeat: no-repeat;
   margin-bottom: 63px;
+  padding-top: 51px;
 }
 
 .welcome-sedona {
@@ -135,12 +157,16 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 92px 85px;
-  gap: 30px;
+}
+
+.advantages-number {
+  margin-bottom: 30px;
 }
 
 .advantages-item {
   padding: 103px 85px;
   gap: 30px;
+  width: 400px;
 }
 
 .advantages-item-blue {
@@ -151,7 +177,6 @@ ul {
 
 .advantages-list {
   display: flex;
-  list-style: none;
 }
 
 .advantages-item-grey {
@@ -167,6 +192,7 @@ ul {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .footer-social {
@@ -227,7 +253,6 @@ ul {
 .footer-item {
   display: flex;
   gap: 27px;
-  list-style: none;
 }
 
 .footer-title {
@@ -279,7 +304,6 @@ ul {
 
 .filter-list {
   display: flex;
-  list-style: none;
 }
 
 .filter-link {
@@ -310,10 +334,6 @@ ul {
 .filter-link {
   font-size: 16px;
   line-height: 21px;
-}
-
-.filter-catalog-list {
-  list-style: none;
 }
 
 .filter-catalog-title {
@@ -367,7 +387,6 @@ ul {
 
 .product-list-star {
   display: flex;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -382,6 +401,11 @@ ul {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.sorting-button .button {
+  min-width: 48px;
+  min-height: 48px;
 }
 
 .product-card-title {
