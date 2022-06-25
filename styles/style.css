@@ -78,11 +78,13 @@ ul {
 
 .navigation-logo {
   margin-left: 13px;
+  padding: 0;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
+  height: 66px;
 }
 
 .navigation-list {
