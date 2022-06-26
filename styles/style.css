@@ -30,24 +30,12 @@ body {
   padding: 0;
 }
 
-a {
-  color: #000000;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-ol,
+/*ol,
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
+}*/
 
 .visually-hidden {
   position: absolute;
@@ -93,9 +81,14 @@ ul {
   max-width: 500px;
   gap: 34px;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .navigation-link {
+  color: #000000;
+  text-decoration: none;
   display: block;
   font-size: 20px;
   line-height: 26px;
@@ -158,14 +151,21 @@ ul {
 .advantages-one {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   padding: 92px 85px;
 }
 
 .advantages-number {
-  margin-bottom: 30px;
+  margin: 0;
+}
+
+.advantages-text {
+  margin: 0;
 }
 
 .advantages-item {
+  display: flex;
+  flex-direction: column;
   padding: 103px 85px;
   gap: 30px;
   width: 400px;
@@ -179,6 +179,9 @@ ul {
 
 .advantages-list {
   display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .advantages-item-grey {
@@ -194,7 +197,7 @@ ul {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 .footer-social {
@@ -203,7 +206,7 @@ ul {
 
 .interested {
   width: 592px;
-  padding-top: 91px;
+  margin-top: 91px;
 }
 
 .interested-title {
@@ -211,16 +214,18 @@ ul {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .interested-text {
   font-size: 22px;
   line-height: 26px;
-  padding-top: 29px;
-  padding-bottom: 56px;
+  margin: 29px 0 56px 0;
 }
 
 .interested-link {
+  color: #000000;
+  text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -255,6 +260,9 @@ ul {
 .footer-item {
   display: flex;
   gap: 27px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer-title {
@@ -263,16 +271,18 @@ ul {
   line-height: 36px;
   text-transform: uppercase;
   padding-top: 94px;
+  margin: 0;
 }
 
 .footer-text {
   font-size: 22px;
   line-height: 26px;
-  padding-top: 29px;
-  padding-bottom: 46px;
+  margin: 29px 0 46px 0;
 }
 
 .footer-phone {
+  color: #000000;
+  text-decoration: none;
   font-size: 40px;
   line-height: 40px;
 }
@@ -306,6 +316,9 @@ ul {
 
 .filter-list {
   display: flex;
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .filter-link {
@@ -316,9 +329,20 @@ ul {
 .filter-catalog {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   text-align: left;
-  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.filter-catalog-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.filter-catalog-group {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
 }
 
 .button-two {
@@ -331,6 +355,8 @@ ul {
   font-size: 60px;
   line-height: 78px;
   text-align: start;
+  margin: 0;
+
 }
 
 .filter-link {
@@ -342,11 +368,23 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .price-number {
   background-color: transparent;
   color: #ffffff;
+  width: 144px;
+  height: 30px;
+  padding: 0;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.price-range {
+  margin-top: 32px;
+  width: 288px;
 }
 
 .button-apply {
@@ -359,6 +397,7 @@ ul {
   border: none;
   padding: 14px 15px;
   border-radius: 4px;
+  margin-top: 48px;
 }
 
 .button-reset {
@@ -384,13 +423,22 @@ ul {
 .product-list {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
   gap: 20px;
+}
+
+.button {
+  color: #000000;
+  text-decoration: none;
+  padding: 9px 15px 8px 15px;
+  border-radius: 4px;
 }
 
 .product-list-star {
   display: flex;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .rating-star {
@@ -408,6 +456,11 @@ ul {
 .sorting-button .button {
   min-width: 48px;
   min-height: 48px;
+}
+
+.product-card-link {
+  color: #000000;
+  text-decoration: none;
 }
 
 .product-card-title {
@@ -459,6 +512,9 @@ ul {
 
 .pagination-list {
   display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .pagination-link {
@@ -471,6 +527,7 @@ ul {
   padding: 12px 24px;
   margin: 0 4px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .pagination-current {
@@ -480,6 +537,7 @@ ul {
   text-transform: uppercase;
   color: #000000;
   background: #f2f2f2;
+  margin-left: 0;
 }
 
 .pagination-user {
