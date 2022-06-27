@@ -107,14 +107,16 @@
         <fieldset class="filter-catalog-group">
           <div>
             <legend class="filter-catalog-title">Стоимость, ₽:</legend>
-            <label class="price">
-              <input class="price-number" type="number" placeholder="от" min="0" max="9000" value="0">
-            </label>
-            <label class="price">
-              <input class="price-number" type="number" placeholder="до" min="1" max="9000" value="9000">
-            </label>
+            <div class="price">
+              <label>
+                <input class="price-number price-right" type="number" placeholder="от" min="0" max="9000" value="0">
+              </label>
+              <label>
+                <input class="price-number price-left" type="number" placeholder="до" min="1" max="9000" value="9000">
+              </label>
+            </div>
           </div>
-          <label class="price">
+          <label class="range-price">
             <input class="price-range" type="range">
           </label>
         </fieldset>
@@ -156,9 +158,14 @@
               alt="Amara Resort & Spa." />
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
-          <p class="product-card-text">Гостиница От 4000 ₽</p>
-          <a href="#" class="product-card-button button">Подробнее</a>
-          <a href="#" class="product-card-button-blu button">В избранное</a>
+          <div class="product-card-price">
+            <p class="product-card-text">Гостиница</p>
+            <p class="product-card-text">От 4000 ₽</p>
+          </div>
+          <div class="product-card-buttons">
+            <a href="#" class="product-card-button button">Подробнее</a>
+            <a href="#" class="product-card-button-blu button">В избранное</a>
+          </div>
           <div class="rating-star">
             <ul class="product-list-star">
               <li class="product-item-star">
@@ -186,9 +193,14 @@
               alt="Villas at Poco Diablo." />
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
-          <p class="product-card-text">Гостиница От 5000 ₽</p>
-          <a href="#" class="product-card-button button">Подробнее</a>
-          <a href="#" class="product-card-button-green button">В избранном</a>
+          <div class="product-card-price">
+            <p class="product-card-text">Гостиница</p>
+            <p class="product-card-text">От 5000 ₽</p>
+          </div>
+          <div class="product-card-buttons">
+            <a href="#" class="product-card-button button">Подробнее</a>
+            <a href="#" class="product-card-button-green button">В избранном</a>
+          </div>
           <div class="rating-star">
             <ul class="product-list-star">
               <li class="product-item-star">
@@ -216,9 +228,14 @@
               alt="Desert Quail Inn." />
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
-          <p class="product-card-text">Гостиница От 2500 ₽</p>
-          <a href="#" class="product-card-button button">Подробнее</a>
-          <a href="#" class="product-card-button-blu button">В избранное</a>
+          <div class="product-card-price">
+            <p class="product-card-text">Гостиница</p>
+            <p class="product-card-text">От 2500 ₽</p>
+          </div>
+          <div class="product-card-buttons">
+            <a href="#" class="product-card-button button">Подробнее</a>
+            <a href="#" class="product-card-button-blu button">В избранное</a>
+          </div>
           <div class="rating-star">
             <ul class="product-list-star">
               <li class="product-item-star">
@@ -243,9 +260,14 @@
               alt="GreenTree Inn." />
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
-          <p class="product-card-text">Гостиница От 1500 ₽</p>
-          <a href="#" class="product-card-button button">Подробнее</a>
-          <a href="#" class="product-card-button-blu button">В избранное</a>
+          <div class="product-card-price">
+            <p class="product-card-text">Гостиница</p>
+            <p class="product-card-text">От 1500 ₽</p>
+          </div>
+          <div class="product-card-buttons">
+            <a href="#" class="product-card-button button">Подробнее</a>
+            <a href="#" class="product-card-button-blu button">В избранное</a>
+          </div>
           <div class="rating-star">
             <ul class="product-list-star">
               <li class="product-item-img">
@@ -295,7 +317,7 @@
     <section class="footer-mail">
       <h2 class="footer-title">Подпишитесь на рассылку</h2>
       <p class="footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form action="#" method="post">
+      <form class="email-button" action="#" method="post">
         <label>
           <input class="email" type="email" placeholder="Ваш e-mail" name="email" />
         </label>
