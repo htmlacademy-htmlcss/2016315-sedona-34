@@ -300,9 +300,9 @@ body {
 }
 
 .email {
-  padding: 0 0 0 22px;
+  padding: 22px;
   min-width: 578px;
-  min-height: 60px;
+  min-height: 14px;
   background: #f2f2f2;
   border: none;
   border-radius: 10px 0px 0px 10px;
@@ -450,12 +450,12 @@ body {
 }
 
 .product-card {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  text-align: left;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  column-gap: 20px;
+  row-gap: 16px;
   padding: 20px;
+  text-align: left;
 }
 
 .product-card-buttons {
@@ -486,6 +486,7 @@ body {
 
 .product-list-star {
   display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -525,6 +526,7 @@ body {
 }
 
 .product-card-link {
+  grid-column: 1/-1;
   color: #000000;
   text-decoration: none;
 }
@@ -564,11 +566,13 @@ body {
 }
 
 .product-card-rating {
+  padding: 9px 15px 8px 15px;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   color: #333333;
   background: #f2f2f2;
+  border-radius: 4px;
 }
 
 .pagination {
