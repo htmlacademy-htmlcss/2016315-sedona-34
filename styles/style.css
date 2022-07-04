@@ -397,25 +397,29 @@ body {
   border-radius: 4px;
 }
 
+.price-one {
+  border-right: 2px solid #ffffff;
+}
+
 .price-number {
-  padding: 0;
-  width: 144px;
-  height: 30px;
+  padding: 14px 20px 13px 19px;
   color: #ffffff;
   background-color: transparent;
   border: none;
 }
 
 .price-right {
-  border-right: 1px solid #ffffff;
+  padding-right: 14px;
+  opacity: 0.3;
 }
 
 .price-left {
-  border-left: 1px solid #ffffff;
+  padding-right: 17px;
+  opacity: 0.3;
 }
 
 .price-range {
-  margin-top: 32px;
+  margin-top: 20px;
   width: 288px;
 }
 
@@ -506,9 +510,7 @@ body {
 }
 
 .select-control {
-  width: 290px;
-  height: 49px;
-  padding: 0 0 0 20px;
+  padding: 14px 97px 14px 20px;
 }
 
 .sorting-button {
@@ -519,9 +521,13 @@ body {
 }
 
 .sorting-button .button {
-  padding: 0;
-  min-width: 48px;
-  min-height: 48px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #e5e5e5;
+  padding: 17px 16px;
+}
+
+.sorting-button .button-ligh {
   border: 2px solid #000000;
 }
 
@@ -620,8 +626,7 @@ body {
 }
 
 .select-hotel {
-  width: 160px;
-  height: 49px;
+  padding: 14px 98px 14px 20px;
 }
 
 .pagination-user-page {
