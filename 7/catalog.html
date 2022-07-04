@@ -54,7 +54,7 @@
       <ul class="filter-list">
         <li class="filter-item">
           <a class="filter-link" href="index.html">
-            <span class="visually-hidden">Главная</span>
+            <img src="images/icons/home.svg" alt="Главная.">
           </a>
         </li>
         <li class="filter-item">
@@ -109,11 +109,13 @@
           <div>
             <legend class="filter-catalog-title">Стоимость, ₽:</legend>
             <div class="price">
-              <label>
-                <input class="price-number price-right" type="number" placeholder="от" min="0" max="9000" value="0">
+              <label class="price-one">
+                <input class="price-number" type="number" min="0" max="9000" value="0">
+                <label class="price-right">от</label>
               </label>
               <label>
-                <input class="price-number price-left" type="number" placeholder="до" min="1" max="9000" value="9000">
+                <input class="price-number" type="number" min="1" max="9000" value="9000">
+                <label class="price-left">до</label>
               </label>
             </div>
           </div>
@@ -139,13 +141,13 @@
 
         <div class="sorting-button">
           <a class="button button-ligh" href="#">
-            <span class="visually-hidden">Показать карточки</span>
+            <img src="images/icons/table.svg" alt="Сортировать таблицей." width="16" height="14px">
           </a>
           <a class="button" href="#">
-            <span class="visually-hidden">Показать одну</span>
+            <img src="images/icons/slideshow.svg" alt="Сортировать слайдшоу." width="16" height="14px">
           </a>
           <a class="button" href="#">
-            <span class="visually-hidden">Показать список</span>
+            <img src="images/icons/list.svg" alt="Сортировать списком." width="16" height="14px">
           </a>
         </div>
       </section>
