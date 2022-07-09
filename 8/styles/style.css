@@ -46,6 +46,7 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .page-text-container {
@@ -68,6 +69,11 @@ body {
   height: 66px;
 }
 
+.navigation-wrap {
+  display: flex;
+  gap: 48px;
+}
+
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +91,7 @@ body {
 
 .navigation-link {
   display: block;
-  padding: 16px 0;
+  padding: 19px 0;
   color: #000000;
   font-size: 20px;
   line-height: 26px;
@@ -93,8 +99,13 @@ body {
   text-decoration: none;
 }
 
+.navigation-item-user-right {
+  margin-right: -12px;
+}
+
 .navigation-item-user {
   position: relative;
+  margin-left: -30px;
   min-width: 21px;
   min-height: 33px;
 }
@@ -130,7 +141,7 @@ body {
 }
 
 .navigation-link-header {
-  padding: 9px 15px 8px;
+  padding: 8px 34px 8px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -164,7 +175,9 @@ body {
   content: "";
   width: 1200px;
   height: 57px;
-  left: 150px;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 494px;
   background-image: url('../images/icons/vector.svg');
 }
@@ -258,6 +271,10 @@ body {
   list-style-type: none;
 }
 
+.advantages-item-user {
+  padding: 103px 67px;
+}
+
 .advantages-item-grey {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -284,8 +301,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 592px;
-  padding: 91px 304px 93px 304px;
+  width: 600px;
+  padding: 88px 300px 93px 300px;
 }
 
 .interested-title {
@@ -297,7 +314,7 @@ body {
 }
 
 .interested-text {
-  margin: 29px 0 0 0;
+  margin: 30px 0 0 0;
   font-size: 22px;
   line-height: 26px;
 }
@@ -333,7 +350,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 89px 200px;
+  padding: 94px 200px;
   color: #ffffff;
   background-size: 100%;
   background-color: #000000;
@@ -346,7 +363,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 89px 200px;
+  padding: 95px 200px;
 }
 
 .footer-social {
@@ -359,6 +376,7 @@ body {
 
 .vkontakte {
   fill: #83B3D3;
+  margin-left: 12px;
 }
 
 .vkontakte:hover {
@@ -438,7 +456,7 @@ body {
 }
 
 .footer-text {
-  margin: 29px 0 0 0;
+  margin: 29px 0 0 3px;
   width: 475px;
   font-size: 22px;
   line-height: 26px;
@@ -449,6 +467,7 @@ body {
   text-decoration: none;
   font-size: 40px;
   line-height: 40px;
+  margin-left: 12px;
 }
 
 .footer-phone:hover {
@@ -465,25 +484,32 @@ body {
 
 .email-button {
   display: flex;
-  margin-top: 56px;
+  margin-top: 45px;
 }
 
 .email {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
   padding: 22px;
-  min-width: 578px;
-  min-height: 14px;
+  min-width: 556px;
+  height: 16px;
   background: #f2f2f2;
   border: none;
   border-radius: 10px 0px 0px 10px;
 }
 
 .button-email {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  font-family: "PT Sans", Arial, sans-serif;
+  text-transform: uppercase;
   padding: 12px 15px;
   height: 60px;
   width: 200px;
   color: #ffffff;
   background-color: #82b3d3;
-  text-transform: uppercase;
   border: none;
   border-radius: 0px 10px 10px 0px;
 }
@@ -706,6 +732,10 @@ body {
   margin: 0;
 }
 
+.product-card-text {
+  margin: 0;
+}
+
 .product-list {
   display: grid;
   grid-template-columns: 340px 340px 340px;
@@ -858,6 +888,7 @@ body {
 
 .product-card-rating {
   padding: 9px 15px 8px 15px;
+  margin: 0;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
