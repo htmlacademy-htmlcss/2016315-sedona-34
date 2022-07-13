@@ -19,6 +19,7 @@ html {
 }
 
 body {
+  min-width: 1200px;
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -63,10 +64,13 @@ body {
   padding: 0;
 }
 
+.navigation-link-logo {
+  height: 66px;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
-  height: 66px;
 }
 
 .navigation-wrap {
