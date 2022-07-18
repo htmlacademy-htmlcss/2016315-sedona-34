@@ -91,10 +91,10 @@ body {
 .navigation-user {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   width: 305px;
   align-items: center;
   gap: 0;
-  justify-content: center;
 }
 
 .navigation-link-current {
@@ -113,13 +113,13 @@ body {
 
 .navigation-item-user {
   position: relative;
-  width: 65px;
+  width: 50px;
   min-width: 21px;
   min-height: 33px;
 }
 
 .navigation-user .navigation-item-user:nth-child(1) .navigation-link {
-  padding: 25px;
+  padding: 25px 15px;
   width: 18px;
   height: 18px;
   background-image: url('../images/icons/search.svg');
@@ -128,7 +128,7 @@ body {
 }
 
 .navigation-user .navigation-item-user:nth-child(2) .navigation-link {
-  padding: 25px;
+  padding: 25px 15px;
   width: 18px;
   height: 18px;
   background-image: url('../images/icons/heart.svg');
@@ -142,10 +142,14 @@ body {
   line-height: 13px;
   bottom: 35px;
   padding: 4px;
-  left: 35px;
+  left: 24px;
   background-color: #7DB54F;
   border-radius: 50%;
   color: #ffffff;
+}
+
+.navigation-item-link {
+  margin-left: 11px;
 }
 
 .navigation-link-header {
@@ -477,7 +481,7 @@ body {
 }
 
 .footer-phone {
-  width: 331px;
+  width: 340px;
   color: #000000;
   text-decoration: none;
   font-size: 40px;
@@ -551,6 +555,7 @@ body {
 
 .filter-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
   margin: 10px 0 0 0;
@@ -578,7 +583,8 @@ body {
 .icon-vector-row {
   background-image: url('../images/icons/arow.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
+  padding-left: 15px;
   width: 5px;
   height: 8px;
 }
@@ -923,6 +929,7 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   background-position: right 17px center;
   appearance: none;
+  background-color: #ffffff;
 }
 
 .sorting-button {
@@ -1103,6 +1110,7 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   background-position: right 18px center;
   appearance: none;
+  background-color: #ffffff;
 }
 
 .pagination-user-page {
