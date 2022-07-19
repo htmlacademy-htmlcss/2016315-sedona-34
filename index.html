@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
-  <header class="page-container">
+<body class="page-container">
+  <header>
     <nav class="navigation page-text-container">
       <div class="navigation-wrap">
         <a class="navigation-link-logo">
@@ -42,14 +42,14 @@
           </a>
           <span class="user-like">12</span>
         </li>
-        <li class="navigation-item">
+        <li class="navigation-item navigation-item-link">
           <a class="navigation-link navigation-link-header" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <main class="main-index main-container page-container">
+  <main class="main-index main-container">
     <div class="container">
       <h1 class="visually-hidden">Курорт седона</h1>
       <section class="welcome">
@@ -127,17 +127,17 @@
       <section class="interested page-text-container">
         <h2 class="interested-title">Заинтересовались?</h2>
         <p class="interested-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц
-          в Седоне </p>
+          в Седоне &nbsp;</p>
         <a class="interested-link" href="#">Поиск гостиницы в седоне</a>
       </section>
     </div>
   </main>
 
-  <footer class="page-footer page-container">
+  <footer class="page-footer">
     <section class="footer-email">
       <h2 class="footer-title">Подпишитесь на рассылку</h2>
       <p class="footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="email-button" action="#" method="post">
+      <form class="email-button" action="https://echo.htmlacademy.ru" method="post">
         <label>
           <input class="email" type="email" placeholder="Ваш e-mail" name="email" />
         </label>
@@ -184,7 +184,7 @@
         </li>
       </ul>
       <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="footer-link" href="#">
+      <a class="footer-link" href="https://htmlacademy.ru">
         <svg class="logo-htmlacademy" aria-label="Логотип HTML академии." width="115" height="34" viewBox="0 0 115 34"
           fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -217,29 +217,29 @@
           <p class="footnote-departure-date null-margins">На эти даты есть свободные номера. Пока есть.</p>
 
           <div class="field-group-people">
-
             <div class="field-group null-margins">
               <label class="modal-label modal-label-people" for="old">Взрослые:</label>
-            </div>
-            <div class="number-children">
-              <button class="button-modal button-modal-minus" type="button">
-                <span class="visually-hidden">Уменьшить количество взрослых.</span>
-                <svg class="minus" aria-hidden="true" width="13" height="1" viewBox="0 0 13 1" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 0v1h13V0H0Z" />
-                </svg>
-              </button>
-              <input class="old-form-field modal-field-people" type="text" id="old" name="old"
-                placeholder="количество взрослых" value="2">
-              <button class="button-modal button-modal-plus" type="button">
-                <span class="visually-hidden">Увеличить количество взрослых.</span>
-                <svg class="plus" aria-hidden="true" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
-                </svg>
-              </button>
+              <div class="number-children">
+                <button class="button-modal button-modal-minus" type="button">
+                  <span class="visually-hidden">Уменьшить количество взрослых.</span>
+                  <svg class="minus" aria-hidden="true" width="13" height="1" viewBox="0 0 13 1" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0v1h13V0H0Z" />
+                  </svg>
+                </button>
+                <input class="old-form-field modal-field-people" type="text" id="old" name="old"
+                  placeholder="количество взрослых" value="2">
+                <button class="button-modal button-modal-plus" type="button">
+                  <span class="visually-hidden">Увеличить количество взрослых.</span>
+                  <svg class="plus" aria-hidden="true" width="13" height="13" viewBox="0 0 13 13" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+                  </svg>
+                </button>
+              </div>
 
-              <p class="field-group null-margins">
+
+              <div class="field-group null-margins">
                 <span class="modal-label-child">
                   <label class="modal-label modal-label-people" for="child">Дети:</label>
                   <span class="tooltip">
@@ -253,23 +253,24 @@
                     <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
                       с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
                   </span>
-                  <button class="button-modal button-modal-minus" type="button">
-                    <span class="visually-hidden">Уменьшить количество детей.</span>
-                    <svg class="minus" aria-hidden="true" width="13" height="1" viewBox="0 0 13 1" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0v1h13V0H0Z" />
-                    </svg>
-                  </button>
-                  <input class="child-form-field modal-field-people" type="text" id="child" name="child"
-                    placeholder="количество детей" value="1">
-                  <button class="button-modal button-modal-plus" type="button">
-                    <span class="visually-hidden">Увеличить количетво детей.</span>
-                    <svg class="plus" aria-hidden="true" width="13" height="13" viewBox="0 0 13 13" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
-                    </svg>
-                  </button>
                 </span>
+                <button class="button-modal button-modal-minus" type="button">
+                  <span class="visually-hidden">Уменьшить количество детей.</span>
+                  <svg class="minus" aria-hidden="true" width="13" height="1" viewBox="0 0 13 1" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0v1h13V0H0Z" />
+                  </svg>
+                </button>
+                <input class="old-form-field modal-field-people" type="text" id="old" name="old"
+                  placeholder="количество взрослых" value="2">
+                <button class="button-modal button-modal-plus" type="button">
+                  <span class="visually-hidden">Увеличить количество детей.</span>
+                  <svg class="plus" aria-hidden="true" width="13" height="13" viewBox="0 0 13 13" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
           <button class="button-found" type="submit">Найти</button>
